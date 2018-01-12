@@ -12,13 +12,15 @@
 }
 
 .featured-item .title h4 {
-    margin-bottom: 20px;
+    color: #222;
+    margin-bottom: 15px;
     letter-spacing: 1px;
     font-weight: normal;
 }
 
 .featured-item .desc {
-    color: #7e7e7e;
+    color: #727171;
+    line-height: normal;
 }
 
 .featured-item.border-box {
@@ -207,7 +209,10 @@
 }
 
 .gray-bg {
-    background: #f6f6f6;
+    background: #f2f2f2;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #e1e1e1;
 }
 
 .feature-bg-box,

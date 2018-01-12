@@ -184,13 +184,15 @@
 }
 
 .featured-item .title h4 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     letter-spacing: 1px;
+    color: #222;
     font-weight: normal;
 }
 
 .featured-item .desc {
-    color: #7e7e7e;
+    color: #727171;
+    line-height: normal;
 }
 
 .featured-item.border-box {
@@ -370,7 +372,10 @@
 }
 
 .gray-bg {
-    background: #f6f6f6;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #e1e1e1; 
+    background: #f2f2f2;
 }
 
 .feature-bg-box,
@@ -1396,7 +1401,7 @@ dl.toggle.time-line:before {
 }
 
 .gray-bg {
-    background: #f5f5f5;
+    background: #f2f2f2;
 }
 
 .gray-border-factor .fun-factor {
@@ -2472,7 +2477,7 @@ dl.toggle.time-line:before {
     heading
 -------------------------------------------------------------------*/
 .heading-title {
-    margin-bottom: 100px;
+    margin-bottom: 35px;
 }
 
 .heading-title-alt {
@@ -3526,8 +3531,19 @@ dl.toggle.time-line:before {
 .subscribe-box.text-center .subscribe-form .btn {
     display: inline-block;
     float: none;
-    margin: 0 5px; 
+    margin: 0;
     border: none;
+    border-radius: 3px;
+}
+
+.subscribe-box.text-center .subscribe-form {
+    font-size: 0;
+}
+
+.subscribe-box.text-center .subscribe-form .btn {
+    width: 24%;
+    margin-left: 1%;
+    border-radius: 3px;
 }
 
 .subscribe-box.dark-bg .subscribe-form input,

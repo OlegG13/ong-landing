@@ -337,3 +337,21 @@
 .float-none {
   float: none !important;
 }
+
+.p-top-0--tablet {
+  @media (max-width: 991px) {
+    padding-top: 0;
+  }
+}
+
+.p-top-50--tablet {
+  @media (max-width: 991px) {
+    padding-top: 80px;
+  }
+}
+
+.p-top-80--tablet {
+  @media (max-width: 991px) {
+    padding-top: 80px;
+  }
+}

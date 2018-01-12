@@ -997,4 +997,20 @@ Table of contents
     }
 
 }
+.responsive-img--center {
+    text-align: center;
+}
+.vis-md {
+    @media (max-width: 991px) {
+        display: none;
+    }
+}
+.m-bot-15 {
+    margin-bottom: 15px!important;
+}
+.blue-color {
+    color: #16b8ed;
+    text-transform: uppercase;
+    font-style: normal;
+}
 

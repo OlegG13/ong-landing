@@ -574,6 +574,24 @@ pre {
     float: none !important;
 }
 
+@media (max-width: 991px) {
+    .p-top-0--tablet {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .p-top-50--tablet {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    .p-top-80--tablet {
+        padding-top: 80px;
+    }
+}
+
 /*==============================================
  Bootstrap Reset
  ===============================================*/
@@ -5210,10 +5228,21 @@ address p {
 
 .app-device {
     position: absolute;
+    z-index: 201; 
     bottom: 130px;
     display: block;
     width: 100%;
     text-align: center;
+}
+@media (max-width: 1201px) {
+    .app-device {
+        bottom: 100px;
+    }
+}
+@media (max-width: 991px) {
+    .app-device {
+        display: none;
+    }
 }
 
 .app-img-bottom {
@@ -6837,4 +6866,24 @@ Table of contents
     .count-down-alt .c-grid {
         margin: 10px;
     }
+}
+
+.responsive-img--center {
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .vis-md {
+        display: none;
+    }
+}
+
+.m-bot-15 {
+    margin-bottom: 15px !important;
+}
+
+.blue-color {
+    text-transform: uppercase;
+    color: #16b8ed;
+    font-style: normal;
 }

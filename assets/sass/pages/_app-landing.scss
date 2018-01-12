@@ -4,6 +4,13 @@
   width: 100%;
   bottom: 130px;
   text-align: center;
+  z-index: 201;
+  @media (max-width: 1201px) {
+    bottom: 100px;
+  }
+  @media (max-width: 991px) {
+    display: none;
+  }
 }
 
 .app-img-bottom {

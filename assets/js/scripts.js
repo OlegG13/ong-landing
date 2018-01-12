@@ -7,6 +7,13 @@
     $document = $(document);
     $body = $("body");
 
+
+    $(".menu-btn").on("click", function () {
+        $(".wrapper").toggleClass("active");
+        $(".mobille-menu").toggleClass("active");
+        $("body").toggleClass("active");
+    });
+
     
     /*==============================================
      Pre loader init
