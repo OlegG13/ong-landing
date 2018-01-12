@@ -907,8 +907,9 @@ img {
 
 .menu-btn {
     position: absolute;
+    z-index: 9999; 
     top: 0;
-    right: 20px; 
+    right: 20px;
     display: inline-block;
     width: 56px;
     height: 56px;
